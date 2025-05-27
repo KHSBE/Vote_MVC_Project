@@ -29,7 +29,7 @@ public class Voter {
         this.hasVoted = hasVoted;
     }
     //투표한 후보자의 이름 설정
-    public void setVitedCandidate(String candidateName){
+    public void setVotedCandidate(String candidateName){
         this.votedCandidate = candidateName;
     }
     //투표한 후보자의 이름 가져오기
