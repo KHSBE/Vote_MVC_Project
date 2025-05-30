@@ -48,7 +48,7 @@ public class VoteSystem {
         StringBuilder sb = new StringBuilder();
         candidates.values().stream()
                 .sorted(Comparator.comparingInt(Candidate::getVotes).reversed())
-                .forEach(c -> sb.append(c.name).append(" : ").append(c.getVotes()).append("표\n"));
+                .forEach(c -> sb.append(c.getName()).append(" : ").append(c.getVotes()).append("표\n"));
         cachedResult = sb.toString();
         return cachedResult;
     } // 투표 결과 반환
