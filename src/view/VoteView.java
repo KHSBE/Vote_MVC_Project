@@ -12,13 +12,18 @@ public class VoteView {
     }
 
     public void showMenu() {
-        System.out.println("===== 메인 메뉴 =====");
-        System.out.println("1. 로그인");
-        System.out.println("2. 후보자 목록 보기");
-        System.out.println("3. 투표하기");
-        System.out.println("4. 결과 보기");
-        System.out.println("5. 종료");
-        System.out.print("메뉴 선택: ");
+        public void showMenu() {
+    System.out.println("===== 메인 메뉴 =====");
+    System.out.println("1. 후보 등록");
+    System.out.println("2. 후보 삭제");
+    System.out.println("3. 후보 목록 출력");
+    System.out.println("4. 투표하기");
+    System.out.println("5. 투표 결과 보기");
+    System.out.println("6. 최다 득표자 보기");
+    System.out.println("7. 투표자 등록");
+    System.out.println("8. 투표자 정보 확인");
+    System.out.println("9. 종료");
+        }
     }
 
     public String input(String msg) {
